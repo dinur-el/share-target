@@ -40,7 +40,7 @@
     }
   ],
   "share_target": {
-    "action": "/share-target/",
+    "action": "https://dev.localhost:443/",
     "method": "GET",
     "params": {
       "title": "title",
