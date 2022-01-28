@@ -4,4 +4,5 @@ window.addEventListener('DOMContentLoaded', () => {
     console.log('Title shared: ' + parsedUrl.searchParams.get('title'));
     console.log('Text shared: ' + parsedUrl.searchParams.get('text'));
     console.log('URL shared: ' + parsedUrl.searchParams.get('url'));
+    document.querySelector('h1').innerHTML = parsedUrl.searchParams.get('url');
   });

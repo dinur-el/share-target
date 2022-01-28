@@ -1,7 +1,7 @@
 {
   "name": "my-new-pwa",
   "short_name": "my-new-pwa",
-  "start_url": "https://dev.localhost:443/",
+  "start_url": "https://dinur-el.github.io/share-target/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",
@@ -40,7 +40,7 @@
     }
   ],
   "share_target": {
-    "action": "https://dev.localhost:443/",
+    "action": "https://dinur-el.github.io/share-target/",
     "method": "GET",
     "params": {
       "title": "title",
